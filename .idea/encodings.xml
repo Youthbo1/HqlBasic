@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/imooc/model/Commodity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/imooc/model/Customer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/imooc/model/OrderItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/imooc/model/Seller.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test/com/imooc/model" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test/com/imooc/model/CommodityTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test/com/imooc/model/CustomerTest.java" charset="GBK" />
+  </component>
+</project>

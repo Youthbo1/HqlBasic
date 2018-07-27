@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="STORE">
+      <ObjectId>48</ObjectId>
+      <IntrospectionTimestamp>2018-07-27.13:45:00</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-26.09:19:10</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="16" parent="2" name="ALL_SALES">
+      <ObjectId>20081</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="17" parent="2" name="CLASS">
+      <ObjectId>20179</ObjectId>
+      <CreatedTimestamp>2018-07-26.09:16:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-26.09:16:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="18" parent="2" name="COUPONS">
+      <ObjectId>20063</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="19" parent="2" name="CUSTOMERS">
+      <ObjectId>20048</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="20" parent="2" name="DIVISIONS">
+      <ObjectId>20075</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="21" parent="2" name="EMPLOYEES">
+      <ObjectId>20056</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="22" parent="2" name="EMPLOYEES2">
+      <ObjectId>20079</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="23" parent="2" name="JOBS">
+      <ObjectId>20077</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="MORE_EMPLOYEES">
+      <ObjectId>20073</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="25" parent="2" name="MORE_PRODUCTS">
+      <ObjectId>20071</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="26" parent="2" name="ORDER_STATUS">
+      <ObjectId>20067</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="27" parent="2" name="PRODUCTS">
+      <ObjectId>20052</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="28" parent="2" name="PRODUCT_CHANGES">
+      <ObjectId>20069</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="29" parent="2" name="PRODUCT_PRICE_AUDIT">
+      <ObjectId>20083</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="2" name="PRODUCT_TYPES">
+      <ObjectId>20050</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="31" parent="2" name="PROMOTIONS">
+      <ObjectId>20065</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="2" name="PURCHASES">
+      <ObjectId>20054</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="2" name="PURCHASES_TIMESTAMP_WITH_TZ">
+      <ObjectId>20061</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="34" parent="2" name="PURCHASES_WITH_LOCAL_TZ">
+      <ObjectId>20062</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="2" name="PURCHASES_WITH_TIMESTAMP">
+      <ObjectId>20060</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="36" parent="2" name="REG_EXPS">
+      <ObjectId>20084</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="37" parent="2" name="SALARY_GRADES">
+      <ObjectId>20058</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="2" name="STUDENT">
+      <ObjectId>20178</ObjectId>
+      <CreatedTimestamp>2018-07-26.09:16:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-26.09:19:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <package id="39" parent="2" name="PRODUCT_PACKAGE">
+      <ObjectId>20089</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+    </package>
+    <routine id="40" parent="2" name="AVERAGE_PRODUCT_PRICE">
+      <ObjectId>20088</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2018-07-18.08:52:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+    </routine>
+    <routine id="41" parent="2" name="CIRCLE_AREA">
+      <ObjectId>20087</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2018-07-18.08:52:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+    </routine>
+    <routine id="42" parent="2" name="UPDATE_PRODUCT_PRICE">
+      <ObjectId>20086</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+    </routine>
+    <column id="43" parent="16" name="YEAR">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="16" name="MONTH">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="16" name="PRD_TYPE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="16" name="EMP_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="16" name="AMOUNT">
+      <Position>5</Position>
+      <DataType>NUMBER(8,2)|0</DataType>
+    </column>
+    <index id="48" parent="16" name="ALL_SALES_PK">
+      <ObjectId>20082</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>YEAR
+MONTH
+PRD_TYPE_ID
+EMP_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="16" name="ALL_SALES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>YEAR
+MONTH
+PRD_TYPE_ID
+EMP_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ALL_SALES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="16" name="ALL_SALES_FK_PRODUCT_TYPES">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRD_TYPE_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCT_TYPES</RefTableName>
+      <RefKeyName>PRODUCT_TYPES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="51" parent="16" name="ALL_SALES_FK_EMPLOYEES2">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>EMP_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>EMPLOYEES2</RefTableName>
+      <RefKeyName>EMPLOYEES2_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="52" parent="17" name="CLASSID">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="53" parent="17" name="CNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="54" parent="18" name="COUPON_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="18" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="18" name="DURATION">
+      <Position>3</Position>
+      <DataType>INTERVAL YEAR(3) TO MONTH|0</DataType>
+    </column>
+    <index id="57" parent="18" name="COUPONS_PK">
+      <ObjectId>20064</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>COUPON_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="18" name="COUPONS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>COUPON_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COUPONS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="19" name="CUSTOMER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="19" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="19" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="19" name="DOB">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="63" parent="19" name="PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(12)|0</DataType>
+    </column>
+    <index id="64" parent="19" name="CUSTOMERS_PK">
+      <ObjectId>20049</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="19" name="CUSTOMERS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CUSTOMERS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="66" parent="20" name="DIVISION_ID">
+      <Position>1</Position>
+      <DataType>CHAR(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="20" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="68" parent="20" name="DIVISIONS_PK">
+      <ObjectId>20076</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DIVISION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="20" name="DIVISIONS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>DIVISION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DIVISIONS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="70" parent="21" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="21" name="MANAGER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="72" parent="21" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="21" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="21" name="TITLE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="75" parent="21" name="SALARY">
+      <Position>6</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="76" parent="21" name="EMPLOYEES_PK">
+      <ObjectId>20057</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="21" name="EMPLOYEES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPLOYEES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="78" parent="22" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="22" name="DIVISION_ID">
+      <Position>2</Position>
+      <DataType>CHAR(3)|0</DataType>
+    </column>
+    <column id="80" parent="22" name="JOB_ID">
+      <Position>3</Position>
+      <DataType>CHAR(3)|0</DataType>
+    </column>
+    <column id="81" parent="22" name="FIRST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="22" name="LAST_NAME">
+      <Position>5</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="22" name="SALARY">
+      <Position>6</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="84" parent="22" name="EMPLOYEES2_PK">
+      <ObjectId>20080</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="22" name="EMPLOYEES2_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPLOYEES2_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="86" parent="22" name="EMPLOYEES2_FK_DIVISIONS">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>DIVISION_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>DIVISIONS</RefTableName>
+      <RefKeyName>DIVISIONS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="87" parent="22" name="SYS_C007033">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>JOBS</RefTableName>
+      <RefKeyName>JOBS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="88" parent="23" name="JOB_ID">
+      <Position>1</Position>
+      <DataType>CHAR(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="23" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="90" parent="23" name="JOBS_PK">
+      <ObjectId>20078</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>JOB_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="23" name="JOBS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JOBS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="92" parent="24" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="24" name="MANAGER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="94" parent="24" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="24" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="24" name="TITLE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="97" parent="24" name="SALARY">
+      <Position>6</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="98" parent="24" name="MORE_EMPLOYEES_PK">
+      <ObjectId>20074</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="24" name="MORE_EMPLOYEES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MORE_EMPLOYEES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="100" parent="24" name="MORE_EMPL_FK_FK_MORE_EMPL">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>MANAGER_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>MORE_EMPLOYEES</RefTableName>
+      <RefKeyName>MORE_EMPLOYEES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="101" parent="25" name="PRD_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="25" name="PRD_TYPE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="103" parent="25" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="25" name="AVAILABLE">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <index id="105" parent="25" name="SYS_C007019">
+      <ObjectId>20072</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PRD_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="25" name="SYS_C007019">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRD_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007019</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="107" parent="25" name="SYS_C007020">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRD_TYPE_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCT_TYPES</RefTableName>
+      <RefKeyName>PRODUCT_TYPES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="108" parent="26" name="ORDER_STATUS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="26" name="STATUS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;Order placed&apos; </DefaultExpression>
+    </column>
+    <column id="110" parent="26" name="LAST_MODIFIED">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE
+</DefaultExpression>
+    </column>
+    <index id="111" parent="26" name="DEFAULT_EXAMPLE_PK">
+      <ObjectId>20068</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>ORDER_STATUS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="26" name="DEFAULT_EXAMPLE_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>ORDER_STATUS_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEFAULT_EXAMPLE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="113" parent="27" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="27" name="PRODUCT_TYPE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="115" parent="27" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="27" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="117" parent="27" name="PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <index id="118" parent="27" name="PRODUCTS_PK">
+      <ObjectId>20053</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PRODUCT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="119" parent="27" name="PRODUCTS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCTS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="120" parent="27" name="PRODUCTS_FK_PRODUCT_TYPES">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCT_TYPES</RefTableName>
+      <RefKeyName>PRODUCT_TYPES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="121" parent="27" name="BEFORE_PRODUCT_PRICE_UPDATE">
+      <ObjectId>20091</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>before-row</Turn>
+      <ColNames>PRICE</ColNames>
+      <Condition>new.price &lt; old.price * 0.75</Condition>
+    </trigger>
+    <column id="122" parent="28" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="28" name="PRODUCT_TYPE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="124" parent="28" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="28" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="126" parent="28" name="PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <index id="127" parent="28" name="PROD_CHANGES_PK">
+      <ObjectId>20070</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PRODUCT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="128" parent="28" name="PROD_CHANGES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PROD_CHANGES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="129" parent="28" name="PROD_CHANGES_FK_PRODUCT_TYPES">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCT_TYPES</RefTableName>
+      <RefKeyName>PRODUCT_TYPES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="130" parent="29" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="131" parent="29" name="OLD_PRICE">
+      <Position>2</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="132" parent="29" name="NEW_PRICE">
+      <Position>3</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <foreign-key id="133" parent="29" name="PRICE_AUDIT_FK_PRODUCTS">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="134" parent="30" name="PRODUCT_TYPE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="135" parent="30" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="136" parent="30" name="PRODUCT_TYPES_PK">
+      <ObjectId>20051</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="137" parent="30" name="PRODUCT_TYPES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCT_TYPES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="138" parent="31" name="PROMOTION_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="31" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="31" name="DURATION">
+      <Position>3</Position>
+      <DataType>INTERVAL DAY(3) TO SECOND(4)|0</DataType>
+    </column>
+    <index id="141" parent="31" name="PROMOTIONS_PK">
+      <ObjectId>20066</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PROMOTION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="31" name="PROMOTIONS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PROMOTION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PROMOTIONS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="143" parent="32" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="32" name="CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="32" name="QUANTITY">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="146" parent="32" name="PURCHASES_PK">
+      <ObjectId>20055</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PRODUCT_ID
+CUSTOMER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="147" parent="32" name="PURCHASES_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID
+CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PURCHASES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="148" parent="32" name="PURCHASES_FK_PRODUCTS">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="149" parent="32" name="PURCHASES_FK_CUSTOMERS">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>CUSTOMERS</RefTableName>
+      <RefKeyName>CUSTOMERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="150" parent="33" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="151" parent="33" name="CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="152" parent="33" name="MADE_ON">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(4) WITH TIME ZONE|0</DataType>
+    </column>
+    <foreign-key id="153" parent="33" name="SYS_C007005">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="154" parent="33" name="SYS_C007006">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>CUSTOMERS</RefTableName>
+      <RefKeyName>CUSTOMERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="155" parent="34" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="156" parent="34" name="CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="157" parent="34" name="MADE_ON">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(4) WITH LOCAL TIME ZONE|0</DataType>
+    </column>
+    <foreign-key id="158" parent="34" name="SYS_C007007">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="159" parent="34" name="SYS_C007008">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>CUSTOMERS</RefTableName>
+      <RefKeyName>CUSTOMERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="160" parent="35" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="161" parent="35" name="CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="162" parent="35" name="MADE_ON">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(4)|0</DataType>
+    </column>
+    <foreign-key id="163" parent="35" name="SYS_C007003">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="164" parent="35" name="SYS_C007004">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>STORE</RefSchemaName>
+      <RefTableName>CUSTOMERS</RefTableName>
+      <RefKeyName>CUSTOMERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="165" parent="36" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="36" name="TEXT">
+      <Position>2</Position>
+      <DataType>VARCHAR2(512)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="167" parent="36" name="REG_EXPS_PK">
+      <ObjectId>20085</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="168" parent="36" name="REG_EXPS_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:39</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>REG_EXPS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="169" parent="37" name="SALARY_GRADE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="37" name="LOW_SALARY">
+      <Position>2</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="171" parent="37" name="HIGH_SALARY">
+      <Position>3</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="172" parent="37" name="SALARY_GRADE_PK">
+      <ObjectId>20059</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>SALARY_GRADE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="173" parent="37" name="SALARY_GRADE_PK">
+      <ModifiedTimestamp>2018-07-18.08:52:38</ModifiedTimestamp>
+      <ColNames>SALARY_GRADE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SALARY_GRADE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="174" parent="38" name="XH">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+    </column>
+    <column id="175" parent="38" name="XM">
+      <Position>2</Position>
+      <DataType>CHAR(30)|0</DataType>
+    </column>
+    <column id="176" parent="38" name="SEX">
+      <Position>3</Position>
+      <DataType>CHAR(2)|0</DataType>
+    </column>
+    <column id="177" parent="38" name="BIRTHDAY">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="178" parent="38" name="SAL">
+      <Position>5</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="179" parent="38" name="CLASSID">
+      <Position>6</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <body id="180" parent="39" name="PRODUCT_PACKAGE">
+      <ObjectId>20090</ObjectId>
+      <CreatedTimestamp>2018-07-18.08:52:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-18.08:52:40</ModifiedTimestamp>
+    </body>
+    <routine id="181" parent="39" name="GET_PRODUCTS_REF_CURSOR">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="182" parent="39" name="UPDATE_PRODUCT_PRICE">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <argument id="183" parent="40">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="184" parent="40" name="P_PRODUCT_TYPE_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="185" parent="41">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="186" parent="41" name="P_RADIUS">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="187" parent="42" name="P_PRODUCT_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="188" parent="42" name="P_FACTOR">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="189" parent="181">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>REF CURSOR|0</DataType>
+    </argument>
+    <argument id="190" parent="182" name="P_PRODUCT_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="191" parent="182" name="P_FACTOR">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
